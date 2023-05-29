@@ -42,9 +42,9 @@ public class EnemyControlSystem implements IEntityProcessingService {
             }
             /** bullet for enemy*/
             if (rng > 0.9f){
-         /*   for (BulletSPI bullet : SPILocator.locateAll(BulletSPI.class)) {
+           for (BulletSPI bullet : SPILocator.locateAll(BulletSPI.class)) {
                 world.addEntity(bullet.createBullet(enemy, gameData));
-            }*/
+            }
             }
             movingPart.process(gameData, enemy);
             positionPart.process(gameData, enemy);
