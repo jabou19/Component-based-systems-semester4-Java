@@ -21,7 +21,7 @@ CollisionDetector collisionDetector;
     }
     @Test
     @DisplayName("Colliding does happen between tow entities")
-    void collides() {
+    void Doescollide() {
         entity1.add(new PositionPart(2.0f,2.f,3.0f));
         entity2.add(new PositionPart(4.0f,4.f,2.0f));
         boolean Collides =collisionDetector.collides(entity1,entity2);
